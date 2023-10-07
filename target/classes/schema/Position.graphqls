@@ -1,0 +1,5 @@
+type Position {
+    lat: Int,
+    lon: Int,
+    alt: Int
+}

@@ -1,0 +1,8 @@
+type Bird {
+    position: Position,
+    sensorId: Int
+}
+
+extend type Query {
+    birds(sensorId: Int): [Bird]
+}
